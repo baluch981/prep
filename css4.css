@@ -1,0 +1,188 @@
+.heading{
+    border: 2px solid red;
+    position: relative;
+    text-decoration-line:underline ;
+    background-image: linear-gradient(to right, red,green,yellow);
+}
+
+.content{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: skyblue;
+    position: absolute;
+    left: 320px;
+    display: inline-block;
+    width: 700px ;
+}
+.parent1{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: cyan;
+    display: absolute;
+    bottom: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 300px;
+    width: 1350px;
+}
+.lor1{
+    border: 2px solid black;
+    display: inline-block;
+    grid-column: 1,2;
+    width: 400px;
+    height: 120px;
+    position: relative;
+    left: 30px;
+    border-radius: 10px;
+}
+.lor2{
+    border: 2px solid black;
+    display: grid;
+    grid-column: 2,3;
+    width: 400px;
+    height: 120px;
+    position: relative;
+    left: 10px;
+    border-radius: 10px
+
+}
+.lor3{
+    border: 2px solid black;
+    display: grid;
+    width: 400px;
+    height: 120px;
+    border-radius: 10px
+    
+
+    
+}
+.lor4{
+    border: 2px solid black;
+    display: grid;
+    width: 400px;
+    height: 120px;
+    position: relative;
+    left: 463px;
+    bottom: 31px;
+    border-radius: 10px
+    
+
+}
+.heading2{
+    border: 2px solid red;
+    position: relative;
+    background-image: linear-gradient(to right, red,yellow);
+    text-decoration-line: underline ;
+}
+.rankholder{
+    border: 2px solid black;
+    display:grid;
+    height: 300px;
+    background-image: radial-gradient(blue,green);
+}
+.rh1{
+    border: 2px solid maroon;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: -400px;
+    bottom: -70px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: maroon;
+}
+.rh2{
+    border: 2px solid maroon;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: -150px;
+    bottom: 84px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: maroon;
+}
+.rh3{
+    border: 2px solid maroon;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 238px;
+    left: 100px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: maroon;
+}
+.rh4{
+    border: 2px solid maroon;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 392px;
+    left: 350px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: maroon;
+}
+.matrix{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.m1{
+    border: 2px solid red;
+    color: white;
+    background-color: red;
+    grid-column: 1/5;
+    grid-row: 1/2 ;
+
+}
+.m2{
+    border: 2px solid lightgreen;
+    color:white;
+    background-color: lightgreen;
+    grid-column:1/2;
+    grid-row: 2/3;
+    height: 100px;
+
+}
+.m3{
+    border: 2px solid blue;
+    color: white;
+    background-color: blue;
+    grid-column: 2/3 ;
+    grid-row: 2/3 ;
+    height: 100px;
+}
+.m4{
+    border: 2px solid blueviolet;
+    color: white;
+    background-color: blueviolet;
+    grid-column: 3/4;
+    grid-row: 2/4 ;
+    height: 100px;
+}
+.m5{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    grid-column: 4/5;
+    grid-row: 2/4 ;
+}
+.m6{
+    border: 2px solid orange;
+    color: white;
+    background-color: orange;
+    grid-column: 1/4 ;
+    grid-row: 3/4;
+}
+.m7{
+    border: 2px solid skyblue;
+    color: white;
+    background-color: skyblue;
+    grid-column: 1/5;
+    height: 50px;
+
+}
+
