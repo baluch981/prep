@@ -1,0 +1,116 @@
+
+.heading{
+    position:relative;
+    font-size: 50px;
+    right: 400px;
+    top: 200px;
+    color: white;
+    
+}
+.lor1{
+    color: white;
+    position: relative;
+    right: 300px;
+    top: 150px;
+}
+
+.lor2{
+    color: white;
+    position: relative;
+    right: 545px;
+    top:150px
+}
+
+.lor3{
+    color: white;
+    position: relative;
+    right: 456px;
+    top: 150px;
+}
+.butt{
+    border: 2px solid white;
+    width: 130px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+.ilink{
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+    bottom: 465px;
+    left: 1130px;
+    
+}
+
+.x1{
+    color: inherit;
+    color: white;
+    position: relative;
+    bottom: 397px;
+    left: 800px;
+    text-decoration: none;
+    color: white;
+}
+.x2{
+    color: inherit;
+    color: white;
+    position: relative;
+    bottom: 415px;
+    left: 900px;
+    text-decoration: none;
+    color: white;
+}    
+.x3{
+    color: inherit;
+    color: white;
+    position: relative;
+    bottom: 433px;
+    left: 1010px;
+    text-decoration: none;
+    color: white;
+}
+.pic1{
+   position: relative;
+   bottom: 400px;
+   left: 700px;
+   transition: transform 1s;
+}
+.pic2{
+    position: relative;
+    bottom: 633px;
+    left: 1100px;
+    transition: transform 3s;
+}
+.pic3{
+    position: relative;
+    bottom: 600px;
+    left: 700px;
+    transition: transform 3s;
+}
+.pic4{
+    position: relative;
+    bottom: 830px;
+    left: 1100px;
+    transition: transform 2s;
+}
+.pic1:hover{
+    transform: translatey(-30px);
+}
+.pic2:hover{
+    transform: translatey(-30px);
+}
+.pic3:hover{
+    transform: translatey(-30px);
+}
+.pic4:hover{
+    transform: translatey(-30px);
+}
+.logo{
+    position: relative;
+    bottom: 1440px;
+    left: 60px;
+}
